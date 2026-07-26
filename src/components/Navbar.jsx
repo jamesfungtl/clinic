@@ -50,14 +50,17 @@ const Navbar = ({
           <NextLink
             href="/"
             title={
-              <Image
-                alt="Medical Clinic - SEO Optimized Medical Website Template"
-                className="py-2"
-                src="/img/logo-light.webp"
-                width={150}
-                height={80}
-                priority
-              />
+              <div className="navbar-brand">
+                <Image
+                  alt="Medical Clinic - SEO Optimized Medical Website Template"
+                  className="py-2"
+                  src="/img/logo.png"
+                  width={65}
+                  height={80}
+                  
+                />
+                <span className='off-canvas-logo'>Medical Clinic</span>
+              </div>
             }
           />
           <button
@@ -106,7 +109,7 @@ const Navbar = ({
               <NextLink
                 title="Book Appointment"
                 href="#"
-                className="btn btn-sm bg-color text-white mb-lg-1 rounded border-0"
+                className="btn mb-lg-1"
               />
             </li>
           </ul>

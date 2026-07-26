@@ -39,13 +39,24 @@ const Footer = () => {
           <div className="col-lg-3">
             <div className="widget d-flex flex-column align-items-center text-center text-lg-start">
               <div className="mb-5">
-                <Image
+                <div className='navbar-brand'>
+                  <Image
+                    alt="Medical Clinic - SEO Optimized Medical Website Template"
+                    className="py-2"
+                    src="/img/logo.png"
+                    width={65}
+                    height={80}
+                    priority
+                  />
+                  <span className='logo-light'>Medical Clinic</span>
+                </div>
+                {/* <Image
                   src="/img/logo-light.webp"
                   alt="Clinic Logo"
                   width={200}
                   height={100}
                   className="text-center"
-                />
+                /> */}
               </div>
               <p className="lead mb-5 fs-18 text-white lato text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas ratione odit, iste minima, debitis aliquam asperiores ab accusantium error.
@@ -70,7 +81,7 @@ const Footer = () => {
               <div className="d-flex mb-3">
                 <i className="uil uil-location-pin-alt fs-30 text-white" />
                 <address className="ms-2 text-white lato">
-                  123 Main Street, Springfield, IL 62704, United States
+                  123 Main Street, Mong Kok, Kowloon, Hong Kong, China
                 </address>
               </div>
               <div className="d-flex mb-3 align-items-center">
@@ -82,7 +93,7 @@ const Footer = () => {
               <div className="d-flex align-items-center">
                 <i className="uil uil-phone-volume fs-26 text-white" />
                 <a href="tel:+911234567890" className="ms-2 text-white lato fs-18">
-                  +91 12345 67890
+                  +852 2222 2222
                 </a>
               </div>
             </div>

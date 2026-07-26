@@ -27,7 +27,8 @@
 }
 
 .facts {
-  background-image: linear-gradient(90deg, #b3e5fc 0%, #003366 100%);
+  /* background:  rgb(0, 51, 102);  */
+  background-image: linear-gradient(90deg, #73c6ed 0%, #003366 100%);
 }
 
 /* Text Colors */
