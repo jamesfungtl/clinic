@@ -36996,7 +36996,7 @@ img.svg-inject {
 
 @font-face {
   font-family: "Unicons";
-  src: url("/fonts/unicons/Unicons.woff2") format("woff2"), url("/fonts/unicons/Unicons.woff") format("woff");
+  src: url("/clinic/fonts/unicons/Unicons.woff2") format("woff2"), url("/clinic/fonts/unicons/Unicons.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
