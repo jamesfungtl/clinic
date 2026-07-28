@@ -30,7 +30,7 @@
   }
 
   .hero {
-    background: url('/img/hero-bg-new.webp') no-repeat center/contain;
+    background: url('/clinic/img/hero-bg-new.webp') no-repeat center/contain;
   }
 
   .hero-text {
@@ -39,6 +39,7 @@
     justify-content: center;
     text-align: center;
     color: white;
+    margin: auto !important;
   }
 
   .hero-text h1 {

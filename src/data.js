@@ -33,19 +33,19 @@ export const factList1 = [
     id: 1,
     number: 20000,
     title: "Imaging Services",
-    src: '/img/icons/imaging-services.png'
+    src: '/clinic/img/icons/imaging-services.png'
   },
   {
     id: 2,
     number: 600,
     title: 'Ligament Reconstruction',
-    src: '/img/icons/img-orthopaedics-ligament-reconstruction.svg'
+    src: '/clinic/img/icons/img-orthopaedics-ligament-reconstruction.svg'
   },
   {
     id: 3,
     number: 350,
     title: 'Joint Replacement',
-    src: '/img/icons/img-orthopaedics-joint-replacement.svg'
+    src: '/clinic/img/icons/img-orthopaedics-joint-replacement.svg'
   }
 ];
 
@@ -54,18 +54,18 @@ export const factList2 = [
     id: 4,
     number: 300,
     title: 'Scoliosis Treatment',
-    src: '/img/icons/scoliosis.png'
+    src: '/clinic/img/icons/scoliosis.png'
   },
   {
     id: 5,
     number: 2000,
     title: 'Acupunture',
-    src: '/img/icons/acupunture.png'
+    src: '/clinic/img/icons/acupunture.png'
   },
   {
     id: 6,
     number: 4000,
     title: 'Pain Management',
-    src: '/img/icons/pain-management.png'
+    src: '/clinic/img/icons/pain-management.png'
   }
 ];

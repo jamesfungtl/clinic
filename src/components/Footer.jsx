@@ -43,7 +43,7 @@ const Footer = () => {
                   <Image
                     alt="Medical Clinic - SEO Optimized Medical Website Template"
                     className="py-2"
-                    src="/img/logo.png"
+                    src="/clinic/img/logo.png"
                     width={65}
                     height={80}
                     priority
@@ -51,7 +51,7 @@ const Footer = () => {
                   <span className='logo-light'>Medical Clinic</span>
                 </div>
                 {/* <Image
-                  src="/img/logo-light.webp"
+                  src="/clinic/img/logo-light.webp"
                   alt="Clinic Logo"
                   width={200}
                   height={100}

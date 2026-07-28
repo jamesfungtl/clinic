@@ -2,17 +2,17 @@ import Image from 'next/image';
 
 const images = [
   {
-    src: '/img/ortho.webp',
+    src: '/clinic/img/ortho.webp',
     alt: 'Best Clinic in Location | Clinic - SEO Optimized Clinic Website Template',
     className: 'col-md-10 offset-md-2',
   },
   {
-    src: '/img/ortho2.webp',
+    src: '/clinic/img/ortho2.webp',
     alt: 'Best Clinic in Location | Clinic - SEO Optimized Clinic Website Template',
     className: 'col-md-12',
   },
   {
-    src: '/img/doctor.webp',
+    src: '/clinic/img/doctor.webp',
     alt: 'Best Clinic in Location | Clinic - SEO Optimized Clinic Website Template',
     className: 'col-md-6',
     single: true,

@@ -30,7 +30,7 @@ const Navbar = ({
               <Image
                 alt="Medical Clinic - SEO Optimized Medical Website Template"
                 className="py-2"
-                src="/img/logo.png"
+                src="/clinic/img/logo.png"
                 width={65}
                 height={80}
                 priority
@@ -54,7 +54,7 @@ const Navbar = ({
                 <Image
                   alt="Medical Clinic - SEO Optimized Medical Website Template"
                   className="py-2"
-                  src="/img/logo.png"
+                  src="/clinic/img/logo.png"
                   width={65}
                   height={80}
                   

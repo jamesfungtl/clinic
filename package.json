@@ -10,7 +10,7 @@
     "start": "next start",
     "sass": "sass --no-source-map src/assets/scss:public/css",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles --nojekyll"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
